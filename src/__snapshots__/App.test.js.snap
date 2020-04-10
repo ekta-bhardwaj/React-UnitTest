@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="bgBlack"
+    >
+      <div
+        class="container"
+      >
+        <nav
+          class="nav-wrapper"
+          data-testid="navbar"
+        >
+          <a
+            class="brand-logo center"
+            data-testid="to-do"
+            href="/"
+          >
+            To Do
+          </a>
+          <ul
+            class="right"
+          >
+            <li>
+              <a
+                data-testid="add-subtract-search"
+                href="/TestRedux"
+              >
+                Add,subtarct,Search
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="ToDo"
+    >
+      <img
+        alt="React logo"
+        class="Logo"
+        src="logo.png"
+      />
+      <h1
+        class="ToDo-Header"
+      >
+        React To Do
+      </h1>
+      <div
+        class="ToDo-Container"
+      >
+        <div
+          class="ToDo-Content"
+        >
+          <div
+            class="ToDoItem"
+            data-testid="todo-item"
+          >
+            <p
+              class="ToDoItem-Text"
+              data-testid="todo-text"
+            >
+              clean the house
+            </p>
+            <button
+              class="ToDoItem-Delete"
+              data-testid="delete"
+            >
+              -
+            </button>
+          </div>
+          <div
+            class="ToDoItem"
+            data-testid="todo-item"
+          >
+            <p
+              class="ToDoItem-Text"
+              data-testid="todo-text"
+            >
+              buy milk
+            </p>
+            <button
+              class="ToDoItem-Delete"
+              data-testid="delete"
+            >
+              -
+            </button>
+          </div>
+        </div>
+        <div
+          class="ToDoInput"
+        >
+          <input
+            data-testid="todo-input"
+            type="text"
+            value=""
+          />
+          <button
+            class="ToDo-Add"
+            data-testid="add"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
